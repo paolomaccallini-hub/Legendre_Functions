@@ -1,4 +1,4 @@
 # Repository documentation
 
 📄 **Full document (PDF):**  
-[View the PDF](Legendre Functions.pdf)
+[View the PDF](Legendre%20Functions.pdf)
