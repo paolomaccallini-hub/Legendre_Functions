@@ -42,7 +42,7 @@ $$
 The solution is of the following type:
 
 $$
-f(\rho,\theta)=(C_1 P_n(\theta) + C_2 Q_n(\theta))(C_3 \rho^n + C_4 \rho^{-(n+1)})
+f(\rho,\theta)=\left[C_1 P_n(\theta) + C_2 Q_n(\theta)\right]\left[C_3 \rho^n + C_4 \rho^{-(n+1)}\right]
 $$
 
 with $C_1, C_2, C_3, C_4$ arbitrary constants. One application of this result is the calculation of the gravitational potential of a ring in the space around it. `Recursive_Legendre_Gravity.py` finds the solution for the potential of a ring placed on the plane xy, witha given radius _a_ and a given linear density $\sigma$ using the first N Legendre polynomials (the Legendre functions of the second type have no physical meaning in this case, since they are divergent) and plots it as a surface on the plane yz, along with the euipotential lines, as shown below.
