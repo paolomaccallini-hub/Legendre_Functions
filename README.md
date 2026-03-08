@@ -1,7 +1,5 @@
 # Repository documentation
 
-**Full document (PDF):**  
-
 Definitions, theorems, and applications in physics for the Legendre differential equation, the Legendre polynomials and functions of the second kind are covered in detail in this [PDF](Legendre%20Functions.pdf). Below, you have a short introduction.
 
 **Example: recursion formula**
