@@ -10,11 +10,11 @@ $$
 P_{n+1}(x)=\frac{2n+1}{n+1}xP_{n}(x)-\frac{n}{n+1}P_{n-1}(x)
 $$
 
-The script `Recursive_Legendre_Expansion_1.py` calculates the first N Legendre polynomials using the recursion formula and plots them, as in the example below.
+The script `Recursive_Legendre_Poly.py` calculates the first N Legendre polynomials using the recursion formula and plots them, as in the example below.
 
 ![Legendre_Polynomials](https://github.com/user-attachments/assets/20daf15d-2e38-449d-9d2f-433757d9b67e)
 
-A formally identical recursion formula holds for Legendre functions of the second type. The script `Recursive_Legendre_Expansion_2.py` calculates the first N Legendre functions of the second type using the recursion formula and plots them, as in the example below.
+A formally identical recursion formula holds for Legendre functions of the second type. The script `Recursive_Legendre_Poly_2.py` calculates the first N Legendre functions of the second type using the recursion formula and plots them, as in the example below.
 
 ![Legendre_Functions of the second kind](https://github.com/user-attachments/assets/f74f09d7-d0da-4912-9027-0ed2d67883c7)
 
