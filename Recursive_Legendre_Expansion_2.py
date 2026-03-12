@@ -47,12 +47,12 @@ def get_f(x):
     myfunction = pd.DataFrame(0.0, index=range(r), columns=range(1))
     for i in range(r):
         if x[i] < 0.0:
-            myfunction.at[i,0] = 0.0
+            myfunction.at[i,0] = -1.0
         else:
             myfunction.at[i,0] = 1.0
     return myfunction
 #
-# Calculate generalized Fourier coefficients a_n
+# Calculate generalised Fourier coefficients a_n
 #
 mycoeff = pd.DataFrame(0.0, index=range(N), columns=range(1))
 for i in range(N):
@@ -88,4 +88,5 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.savefig('Legendre_Expansion_1.jpg', dpi=300)
+
 plt.close() # Close the current figure
